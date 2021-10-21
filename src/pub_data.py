@@ -52,7 +52,8 @@ if __name__=="__main__":
             #data = data[-2:]
             #data_raw = np.transpose(data_raw)
             #data_raw = data_raw[-2:]
-
+            
+            # Conversion from here: https://bitalino.com/documentation
             temp_raw = double(data_raw[0][5])
             eda_raw = double(data_raw[0][6])
             temp_c = ((temp_raw/1024)*3.3-0.5)*100
