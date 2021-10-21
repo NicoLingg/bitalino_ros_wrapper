@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+ 
+        <!-- Start bitalino data acquisition -->
+        <node pkg="bitalino_ros_wrapper" name="pub_data" type="pub_data.py" />
+
+</launch>
